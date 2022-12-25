@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('/fonts/SourceSansPro-Black.eot');
+  src: url('/fonts/SourceSansPro-Black.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/SourceSansPro-Black.woff2') format('woff2'),
+  url('/fonts/SourceSansPro-Black.woff') format('woff'),
+  url('/fonts/SourceSansPro-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('/fonts/SourceSansPro-Black.eot');
+  src: url('/fonts/SourceSansPro-Black.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/SourceSansPro-Black.woff2') format('woff2'),
+  url('/fonts/SourceSansPro-Black.woff') format('woff'),
+  url('/fonts/SourceSansPro-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('/fonts/SourceSansPro-Light.eot');
+  src: url('/fonts/SourceSansPro-Light.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/SourceSansPro-Light.woff2') format('woff2'),
+  url('/fonts/SourceSansPro-Light.woff') format('woff'),
+  url('/fonts/SourceSansPro-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('/fonts/SourceSansPro-SemiBold.eot');
+  src: url('/fonts/SourceSansPro-SemiBold.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/SourceSansPro-SemiBold.woff2') format('woff2'),
+  url('/fonts/SourceSansPro-SemiBold.woff') format('woff'),
+  url('/fonts/SourceSansPro-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif ;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.5;
+  background-image: url("/img/background__offer.png");
+  background-repeat: no-repeat;
+}
+
+.offer {
+
+  &__description {
+    margin: 28px 0 40px 0;
+  }
+
+  &__title {
+    min-width: 250px;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--mainColor);
+    margin: 0 0 12px 0;
+  }
+
+  &__text {
+    color: var(--mainColor);
+    min-width: 250px;
+    line-height: 21px;
+    min-height: 65px;
+    margin: 0 0 12px 0;
+
+  }
+}
+
+
+
+
+

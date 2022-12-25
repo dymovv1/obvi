@@ -1,0 +1,85 @@
+@media  screen and (min-width: 760px) {
+  body {
+    background-image: none;
+  }
+  .logo_adaptive {
+    width: 158px;
+    height: 25px;
+  }
+  .header {
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+
+.nav__ {
+  &list {
+    @media screen and (min-width: 760px) {
+      display: flex;
+      gap: 30px;
+      margin: auto;
+    }
+  }
+}
+
+  .nav__toggler {
+    @media screen and (min-width: 760px) {
+      display: none;
+    }
+  }
+
+}
+
+@media  screen and (min-width: 760px) {
+  .offer__section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .offer__title {
+    font-size: 48px;
+    line-height: 55px;
+    margin: 0;
+  }
+  .offer__text {
+    font-size: 18px;
+    line-height: 27px;
+    margin: 20px 0 0 0;
+  }
+  .offer__description {
+    max-width: 350px;
+  }
+  .button {
+    margin: 16px 0 0 0;
+    width: 240px;
+    height: 50px;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .offer__photos {
+    margin: 80px 0 0 0;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .nav_button {
+      background-color: var(--mainColor);
+      color: #FFFFFF;
+      width: 120px;
+      min-height: 40px;
+      border: 2px solid transparent;
+      border-radius: 3px;
+      transition: .3s;
+      text-decoration: none;
+
+      &:hover {
+        background: #FFFFFF;
+        color: var(--mainColor);
+        border-color: currentColor;
+      }
+    }
+
+  }
+
+
+
